@@ -24,7 +24,6 @@ pub struct Input {
 mod parsing {
     use std::{num::ParseIntError, str::FromStr};
 
-    use crate::{Move, Stack};
 
     #[derive(Debug)]
     pub enum InputParseError {
